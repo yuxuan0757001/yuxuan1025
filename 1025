@@ -1,0 +1,41 @@
+<H1>FORM 1</H1>
+
+<form action="https://www.i-gamer.net/" method="GET">
+<input type="text" name="category">
+<input type="submit" value="GET方法的表單">
+</form>
+<H1>FORM 2</H1>
+<form action="https://www.i-gamer.net/" method="GET">
+<select name="game">
+<option value="1">休閒趣味</option>
+<option value="2">冒險遊戲</option>
+<option value="3" selected>射擊遊戲</option>
+<option value="4">動腦益智</option>
+<option value="5">運動競技</option>
+<option value="7">策略模擬</option>
+<option value="8">女生遊戲</option>
+</select>
+<input type="submit" value="GET方法的表單">
+</form>
+
+
+<H1>FORM 3</H1>
+<form action="https://www.i-gamer.net/" method="GET">
+<input type="text" name="key">
+<input type="hidden" name="" value="search">
+<input type="submit" value="給我搜">
+
+<H1>FORM 4 HTML5</H1>
+
+<input type="datetime-local" min="2015-10-01T00:00" max="2015-10-31T00:00">
+
+<input type="tel" pattern="[0][9][0-9]{8}" placeholder="09xxxxxxxx">
+<input type="url" placeholder="http://it-life-wyx.blogspot.tw/">
+
+
+<H1> FORM 5 </H1>
+<p>時間：<input type="time" name="time"></p>
+
+<p>日期：<input type="date" name="date"></p>
+
+<p>電話：<input type="tel" name="tel"></p>
